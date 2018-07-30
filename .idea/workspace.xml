@@ -34,8 +34,8 @@
       <file leaf-file-name="WaterBottle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#86#87#0" expanded="true" />
                 <element signature="e#121#122#0" expanded="true" />
@@ -45,6 +45,8 @@
                 <element signature="e#249#250#0" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
                 <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,8 +55,8 @@
       <file leaf-file-name="WaterBottleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="477">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#125#126#0" expanded="true" />
@@ -453,7 +455,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WaterBottleTest.emptyBottle">
+  <component name="RunManager" selected="JUnit.WaterBottleTest.fullBottle">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -481,6 +483,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
       <option name="METHOD_NAME" value="emptyBottle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WaterBottleTest.fullBottle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="waterbottle_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
+      <option name="METHOD_NAME" value="fullBottle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -550,9 +569,11 @@
       <item itemvalue="JUnit.WaterBottleTest.hasVolume" />
       <item itemvalue="JUnit.WaterBottleTest.canDrink" />
       <item itemvalue="JUnit.WaterBottleTest.emptyBottle" />
+      <item itemvalue="JUnit.WaterBottleTest.fullBottle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WaterBottleTest.fullBottle" />
         <item itemvalue="JUnit.WaterBottleTest.emptyBottle" />
         <item itemvalue="JUnit.WaterBottleTest.canDrink" />
         <item itemvalue="JUnit.WaterBottleTest.hasVolume" />
@@ -579,6 +600,9 @@
     <history-entry file="WaterBottleTest_canDrink - 2018.07.30 at 17h 56m 00s.xml">
       <configuration name="WaterBottleTest.canDrink" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WaterBottleTest_emptyBottle - 2018.07.30 at 17h 57m 29s.xml">
+      <configuration name="WaterBottleTest.emptyBottle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -592,12 +616,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.28537735" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -617,6 +641,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java</url>
+          <line>25</line>
+          <properties class="WaterBottleTest" method="emptyBottle">
+            <option name="EMULATED" value="true" />
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -627,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="477">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#125#126#0" expanded="true" />
@@ -641,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="300">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="e#86#87#0" expanded="true" />
             <element signature="e#121#122#0" expanded="true" />
@@ -652,6 +690,8 @@
             <element signature="e#249#250#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
           </folding>
         </state>
       </provider>
